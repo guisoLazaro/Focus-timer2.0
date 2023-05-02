@@ -1,0 +1,92 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-size: 62.5%;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Roboto',sans-serif;
+  font-size: 1.6rem;
+  height: 100vh;
+
+}
+
+main {
+  display: flex;
+  align-items: center;
+  gap: 19.2rem;
+}
+.timer {
+  display: flex;
+  justify-content: center;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12.8rem;
+  line-height: 14.8rem;
+
+  text-transform: uppercase;
+
+  color: #323238;
+
+}
+.controls {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 4.0rem;
+  margin-top: 1.7rem;
+}
+.content {
+  display: flex;
+  flex-direction: column;
+}
+button {
+  border: none;
+  background: transparent;
+}
+.sounds-one {
+  display: flex;
+  gap: 3.2rem;
+}
+
+.sounds-two {
+  display: flex;
+  gap: 3.2rem;
+  margin-top: 3.2rem;
+}
+.sounds-one svg path{
+  fill: black;
+}
+
+.sounds-one button,
+.sounds-two button {
+  min-width: 13.8rem;
+  min-height: 15.2rem;
+  background: #E1E1E6;
+  border-radius: 2.4rem;
+  cursor: pointer;
+}
+
+button.back-color {
+  background: #02799D;
+}
+
+.back-color svg path {
+  fill: white;
+}
+
+/*#input-sound {
+  margin-top: 3.2rem;
+}
+
+#input-sound input{
+  width: 9.0rem;
+}*/
